@@ -15,17 +15,17 @@ app.use(pretty({ query: "pretty" }));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 
-//root path for address decoders
+//root path for address type plugin examples
 app.use("/address-decode", addressRouter);
-//root path for tx decoders
+//root path for tx type plugin examples
 app.use("/tx-decode", txRouter);
-//root path for block decoders
+//root path for block type plugin examples
 app.use("/block-decode", blockRouter);
-//root path for data decoders
+//root path for data type plugin examples
 app.use("/data-decode", dataRouter);
-//root path for script decoders
+//root path for script type plugin examples
 app.use("/script-decode", scriptRouter);
-//root path for search decoders
+//root path for search type plugin examples
 app.use("/search-decode", searchRouter);
 
 app.listen(3000);

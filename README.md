@@ -27,9 +27,9 @@ You will now be able to run the examples below.
 - An example of using OpenAI to generate an image based on the transaction id (Requires a api key to view)
   : http://localhost:3000/tx-decode/main/image/0000000000000000017480fc53fbcd60107d0d5e35d2ec2ed6d11ed484087b11
 
-  In order to run the above example get a key you need to signup [here](https://platform.openai.com/signup) and then once logged in to your account go to https://platform.openai.com/account/api-keys to create a key.
+  In order to run the above example you need a api key. Signup [here](https://platform.openai.com/signup) and then once logged in to your account go to https://platform.openai.com/account/api-keys to create a key.
 
-  You will then need to add your openAI key to the the .env file
+  You will then need to add your openAI key to the the .env file.
 
 ### Block type plugin
 

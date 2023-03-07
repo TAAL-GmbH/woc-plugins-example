@@ -1,6 +1,6 @@
 # woc-plugins-example
 
-This project contains different whatsonchain plugin examples. To learn more plugins click [here](https://docs.taal.com/core-products/whatsonchain/woc-plugins)
+This project contains different whatsonchain plugin examples. To learn more about plugins click [here](https://docs.taal.com/core-products/whatsonchain/woc-plugins)
 
 ## Prerequisites
 
@@ -46,7 +46,7 @@ You will now be able to run the examples below.
 - An example of using the the woc-api to get an ordered list of UTXOs for a given
   script hash: http://localhost:3000/script-decode/main/unspent/d47215e97b4c4e5c69c48da818253f4ef985e493f7506915bfd9b1d1df9023fd
 
-- The function`src/utils/getScriptHash.js` can be used to create a scrip thash from a scriptPubKeyHex
+- The function`src/utils/getScriptHash.js` can be used to create a script hash from a scriptPubKeyHex.
 
 ### Search type plugin
 

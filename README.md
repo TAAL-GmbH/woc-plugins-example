@@ -6,7 +6,7 @@ A set of example decoders to show how decoder plugins can can be created.
 
 Node.js 18.14.2 or above
 
-An openAI API key in order to run one of the examples. In order to get a key you need to signup [here](https://platform.openai.com/signup) and then once logged in to your account go to [https://platform.openai.com/account/api-keys] https://platform.openai.com/account/api-keys to create a key.
+An openAI API key in order to run one of the examples. In order to get a key you need to signup [here](https://platform.openai.com/signup) and then once logged in to your account go to https://platform.openai.com/account/api-keys to create a key.
 
 ## Installation
 

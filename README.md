@@ -1,6 +1,6 @@
 # woc-plugins-example
 
-This project contains different whatsonchain plugin examples. To learn more about plugins click [here](https://docs.taal.com/core-products/whatsonchain/woc-plugins)
+This project contains different WhatsOnChain plugin examples. To learn more about plugins click [here](https://docs.taal.com/core-products/whatsonchain/woc-plugins)
 
 ## Prerequisites
 

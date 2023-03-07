@@ -25,7 +25,7 @@ You will now be able to run the examples below.
 
 - An example of returning a json dummy order based on a tx: http://localhost:3000/tx-decode/main/order/0000000000000000017480fc53fbcd60107d0d5e35d2ec2ed6d11ed484087b11
 
-- An example of using OpenAI to generate an image based on the transaction id (Requires a api key to view) : http://localhost:3000/tx-decode/main/order/0000000000000000017480fc53fbcd60107d0d5e35d2ec2ed6d11ed484087b11
+- An example of using OpenAI to generate an image based on the transaction id (Requires a api key to view) : http://localhost:3000/tx-decode/main/image/0000000000000000017480fc53fbcd60107d0d5e35d2ec2ed6d11ed484087b11
 
 ### Examples using a block hash
 

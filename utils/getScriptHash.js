@@ -1,4 +1,3 @@
-var sha256 = require("crypto-js/sha256");
 import sha256 from "crypto-js/sha256";
 import hexEnc from "crypto-js/enc-hex";
 

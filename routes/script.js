@@ -1,5 +1,4 @@
 import { Router } from "express";
-import { hex2ascii } from "../utils/generic.js";
 const router = Router();
 
 /*

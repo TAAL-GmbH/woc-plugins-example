@@ -1,5 +1,5 @@
 import { Router } from "express";
-import { hex2ascii } from "../utils/generic.js";
+import { hex2ascii } from "../utils/hex2ascii.js";
 import { getNeonTemplate } from "../templates/getNeonTemplate.js";
 const router = Router();
 

@@ -9,7 +9,7 @@ An example of rendering the tx id into a 3d animation using a client side webgl 
 
 Example http://localhost:3000/tx-decode/main/anim/0000000000000000017480fc53fbcd60107d0d5e35d2ec2ed6d11ed484087b11
 */
-router.get("/anim/:tx", async function (req, res, next) {
+router.get("/:network/anim/:tx", async function (req, res, next) {
   const tx = req.params.tx;
   res.set("Content-Type", "text/html");
   //Render the animated template
@@ -22,7 +22,7 @@ to some other service utilising tx hash
 
 Example http://localhost:3000/tx-decode/main/order/0000000000000000017480fc53fbcd60107d0d5e35d2ec2ed6d11ed484087b11
 */
-router.get("/order/:tx", async function (req, res, next) {
+router.get("/:network/order/:tx", async function (req, res, next) {
   const tx = req.params.tx;
 
   // A dummy order with fake user generated each time the endpoint is called
@@ -62,9 +62,9 @@ router.get("/order/:tx", async function (req, res, next) {
 /*
 An example of using OpenAI to generate an image based on the transaction id.
 
-Example http://localhost:3000/tx-decode/main/order/0000000000000000017480fc53fbcd60107d0d5e35d2ec2ed6d11ed484087b11
+Example http://localhost:3000/tx-decode/main/image/0000000000000000017480fc53fbcd60107d0d5e35d2ec2ed6d11ed484087b11
 */
-router.get("/image/:tx", async function (req, res, next) {
+router.get("/:network/image/:tx", async function (req, res, next) {
   const tx = req.params.tx;
 
   const configuration = new Configuration({

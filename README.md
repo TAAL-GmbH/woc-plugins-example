@@ -50,8 +50,8 @@ You will now be able to run the examples below.
 
 ### Search type plugin
 
-- An example using dummy data to do a search for an order tied to a transaction id
-  then outputting the json response: http://localhost:3000/search-decode/main/order/99addd00af9c2719c41f2c1ec0eb0e45eaa32f343394f7bed2039459218cdc0a
+- An example using dummy data to do a search for an order based on name
+  then outputting the json response: http://localhost:3000/search-decode/main/order/simon
 
 ### Data decoder plugin
 

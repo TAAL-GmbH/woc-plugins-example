@@ -34,7 +34,7 @@ const dummyOrders = [
   {
     address: {
       title: "office",
-      name: "kim",
+      name: "simon",
       flatNumber: 1,
       street: "Oxford Road",
       locality: "London",
@@ -56,15 +56,15 @@ const dummyOrders = [
 ];
 
 /*
-An example using dummy data to do a search for an order tied to a transaction id.
+An example using dummy data to do a search for an order based on name.
 then outputting the json response using html in a pretty format
 
-Example http://localhost:3000/search-decode/main/order/99addd00af9c2719c41f2c1ec0eb0e45eaa32f343394f7bed2039459218cdc0a
+Example http://localhost:3000/search-decode/main/order/simon
 */
 router.get("/:network/order/:term", async function (req, res, next) {
   const term = req.params.term;
   //look for an order based on tx id other return a not found message
-  const order = dummyOrders.find((order) => order.txid == term);
+  const order = dummyOrders.find((order) => order.address.name == term);
   if (order) {
     res.set("Content-Type", "text/html");
     //Render the json out as html in a pretty format

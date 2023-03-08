@@ -42,7 +42,7 @@ router.get("/:network/time/:hash", async function (req, res, next) {
     //Render the time using a html template themed around a neon light colour
     res.send(
       Buffer.from(
-        getNeonTemplate(`<p>Time sincefirst mined block</p>${uptime}`)
+        getNeonTemplate(`<p>Time since first mined block</p>${uptime}`)
       )
     );
   } catch (e) {

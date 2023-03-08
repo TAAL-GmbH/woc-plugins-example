@@ -51,7 +51,7 @@ You will now be able to run the examples below.
 ### Search type plugin
 
 - An example using dummy data to do a search for an order based on name
-  then outputting the json response: http://localhost:3000/search-decode/main/order/simon
+  then outputting the json response: http://localhost:3000/search-decode/order/simon
 
 ### Data decoder plugin
 

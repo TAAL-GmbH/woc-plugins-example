@@ -80,7 +80,7 @@ router.get("/:network/image/:tx", async function (req, res, next) {
   try {
     const response = await openai.createImage({
       //A prompt using txid to generate the image
-      prompt: `Show this Transaction id ${tx} as lego blocks`,
+      prompt: `The hash ${tx}as lego blocks`,
       n: 1,
       size: imageSize,
     });

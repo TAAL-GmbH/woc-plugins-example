@@ -61,7 +61,7 @@ then outputting the json response using html in a pretty format
 
 Example http://localhost:3000/search-decode/main/order/simon
 */
-router.get("/:network/order/:term", async function (req, res, next) {
+router.get("/order/:term", async function (req, res, next) {
   const term = req.params.term;
   //look for an order based on tx id other return a not found message
   const order = dummyOrders.find((order) => order.address.name == term);
